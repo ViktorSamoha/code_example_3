@@ -1,0 +1,23 @@
+.input-dates .c-input-date {
+    width: 50%; }
+.input-dates .c-input-date:first-child {
+    border-right: none; }
+
+.c-input-date {
+    height: 48px;
+    padding: 5px 20px 5px 10px;
+    font-weight: 400;
+    font-size: 17px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    background-image: url(/assets/development/images/input-date_bg.svg);
+    background-repeat: no-repeat;
+    background-position: center right 8px; }
+@media (max-width: 1024px) {
+    .c-input-date {
+        height: 45px;
+        font-size: 16px;
+        padding: 3px 10px; } }
+@media (max-width: 480px) {
+    .c-input-date {
+        height: 40px; } }
